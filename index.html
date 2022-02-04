@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=stylesheet href="./Styles/style.css">
+    
+    <title>Document</title>
+</head>
+
+<body>
+    <main id="main">
+        <form id="formulario">
+            
+            <img id="image" src="./Images/Pospys.png" width="240" height="200" />
+
+            <label for="Nombre">Nombre:</label><input type="text" id="n1"></input>
+            <label for="Apellido">Apellido:</label><input type="text" id="n2" ></input>
+            <label for="Dirección">Dirección:</label><input type="text" id="n3" ></input>
+            <label for="No.Contacto">No.Contacto</label><input type="telephone" id="n4" ></input>
+            <label for="Sabor">Sabor:</label><select name="iceCream" id="Cream" id="n5" >
+                <option selected></option>
+                <option>Durazno</option>
+                <option>Kiwi</option>
+                <option>Parchita</option>
+                <option>Sandía</option>
+            </select>
+            <figure id="mostrar">
+                <img id="image" src="./Images/fondo.png" width="110" height="150"/>
+
+            </figure>
+        
+            
+        </form>
+        <div id="factura">
+
+            
+        </div>
+        <div id="boton">
+        <button onclick="capturarVariables()" id="btn" >Facturar</button>
+        </div>
+    </main>
+        <script src="./Scripts/script.js"></script>
+
+    
+</body>
+
+</html>

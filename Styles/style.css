@@ -1,0 +1,85 @@
+*{
+    background-color: #e51a4c;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+
+}
+
+form{
+    background-color: aliceblue;
+    border-radius: 15px;
+    margin-block-end: auto;
+    margin-left:25%;
+    margin-right: 25%;
+    margin-top: 2%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    vertical-align: top;
+    
+    
+
+}
+
+#mostrar{
+    background-color: aliceblue;
+    
+}
+
+
+img{
+    
+    background-color: aliceblue;
+    
+}
+label{
+    background-color: aliceblue;
+    
+}
+
+input{
+    background-color: aliceblue;
+    border-radius: 5px;
+    width: 29%;
+    
+}
+
+button{
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    margin-left: 35%;
+    margin-bottom: 20%;
+    margin-top: 10px;
+    width:50%;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-left:25%;
+    margin-right: 25%;
+    background-color:cornflowerblue;
+   
+}
+
+select{
+    border-radius: 5px;
+    width: 30%;
+}
+
+#factura{
+    background-color: #e51a4c;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left:25%;
+    margin-right: 25%;
+    margin-top: 2%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    vertical-align: top;
+}
+
+
+
+
